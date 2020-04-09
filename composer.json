@@ -2,6 +2,7 @@
     "name": "sameyasu/phpcs-pullrequest-review",
     "description": "Code Review Tool using PHP_Codesniffer for Github Pull Request",
     "type": "library",
+    "license": "BSD-3-Clause",
     "require": {
         "php": "^7.2",
         "squizlabs/php_codesniffer": "^3.5",
