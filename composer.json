@@ -1,5 +1,5 @@
 {
-    "name": "sameyasu/phpcs-code-review-action",
+    "name": "sameyasu/phpcs-pullrequest-review",
     "description": "Code Review Tool using PHP_Codesniffer for Github Pull Request",
     "type": "library",
     "require": {
