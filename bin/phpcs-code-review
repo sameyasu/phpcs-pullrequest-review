@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+/**
+ * phpcs-code-review is code review tool using PHP_CodeSniffer for Github Pull Request
+ *
+ * @author sameyasu <sameyasu@gmail.com>
+ */
+
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/squizlabs/php_codesniffer/autoload.php';
+
+$runner = new CodeReviewer\Runner();
+$exitCode = $runner->run();
+exit($exitCode);

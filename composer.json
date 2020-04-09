@@ -10,5 +10,8 @@
         "psr-4": {
             "CodeReviewer\\": "src/"
         }
-    }
+    },
+    "bin": [
+        "bin/phpcs-code-review"
+    ]
 }
