@@ -3,6 +3,7 @@
     "description": "Code Review Tool using PHP_Codesniffer for Github Pull Request",
     "type": "library",
     "require": {
+        "php": "^7.2",
         "squizlabs/php_codesniffer": "^3.5",
         "monolog/monolog": "^2.0"
     },
